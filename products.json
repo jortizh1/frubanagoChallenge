@@ -1,0 +1,73 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "vegetables",
+      "owner_name": "corabasto",
+      "product_name": "aguacate",
+      "name": "Aguacate Hass",
+      "properties": {"name": "size"},
+      "weight": 200,
+      "price": 300
+    },
+    {
+      "id": 2,
+      "category": "fruits",
+      "owner_name": "corabasto",
+      "product_name": "banano",
+      "name": "Banano Urabá",
+      "properties": [{"name": "size"},{"name": "color"}],
+      "weight": 100,
+      "price": 200
+    },
+    {
+      "id": 3,
+      "category": "vegetables",
+      "owner_name": "corabasto",
+      "product_name": "zuquini",
+      "name": "zuquini",
+      "properties": [{"name": "color"}],
+      "weight": 100,
+      "price": 600
+    },
+    {
+      "id": 4,
+      "category": "fruits",
+      "owner_name": "corabasto",
+      "product_name": "Manzana",
+      "name": "Manzana Roja",
+      "properties": [{"name": "size"}],
+      "weight": 150,
+      "price": 459
+    },
+    {
+      "id": 5,
+      "category": "fruits",
+      "owner_name": "corabasto",
+      "product_name": "Manzana",
+      "name": "Manzana verde",
+      "properties": [{"name": "size"}],
+      "weight": 100,
+      "price": 200
+    },
+    {
+      "id": 6,
+      "category": "vegetables",
+      "owner_name": "corabasto",
+      "product_name": "Lechuga",
+      "name": "Lechuga Crespa",
+      "properties": [{"name": "color"}],
+      "weight": 600
+    },
+    {
+      "id": 7,
+      "category": "vegetables",
+      "owner_name": "corabasto",
+      "product_name": "Lechuga",
+      "name": "Lechuga Batavia",
+      "properties": [{"name": "size"}],
+      "weight": 900,
+      "price": 300
+    }
+  ]
+}
