@@ -24,7 +24,7 @@ type Product struct {
 	Owner_name		string `json:"owner_name"`
 	Product_name	string `json:"product_name"`
 	Name string		`json:"name"`
-	Properties		Properties `json:"properties"`
+	Properties		[]Properties `json:"properties"`
 	Weight int		`json:"weight"`
 	Price int		`json:"price"`
 }
