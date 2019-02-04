@@ -11,11 +11,18 @@ type OrderBy struct {
 	Field string `json:"field"`
 }
 
+type FilterBy struct {
+	Field string `json:"field"`
+	Value int `json:"value"`
+}
+
 var OutputNote = make(map[string]Products)
 
 func main() {
 	r := mux.NewRouter().StrictSlash(true)
 	r.HandleFunc("/api/products", GetProducts).Methods("POST")
+	r.HandleFunc("/api/orders", GetOrders).Methods("POST")
+
 
 	server := &http.Server{
 		Addr: ":8585",
