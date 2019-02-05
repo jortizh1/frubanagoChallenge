@@ -54,7 +54,7 @@ func (m *Order) filterByQuantity(q int) bool{
 
 func (m *Order) filterByOrderID(o int) bool{
 	var result bool
-	if m.ProductId == o {
+	if m.OrderID == o {
 		result = true
 	}
 	return result
@@ -96,6 +96,7 @@ func ReadOrders() Orders{
 	json.Unmarshal(byteValue, &orders)
 	return orders
 }
+
 
 func FilterOrders (f Orders, filter string, value int) Order{
 	var res bool
